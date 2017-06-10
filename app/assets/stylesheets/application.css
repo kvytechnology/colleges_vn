@@ -13,3 +13,7 @@
  *= require_tree .
  *= require_self
  */
+
+.ant-layout-header {
+  background: none !important;
+}

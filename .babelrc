@@ -20,6 +20,10 @@
       {
         "spec": true
       }
-    ]
+    ],
+    ["import", {
+      "libraryName": "antd",
+      "style": true
+    }]
   ]
 }

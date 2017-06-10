@@ -1,24 +1,7 @@
-# README
+# Colleges VN
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Project is on going...
 
-Things you may want to cover:
+![screenshot](https://user-images.githubusercontent.com/2282642/27004467-ad2bcf88-4e33-11e7-87c8-76227f234464.png)
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+@2017 KVY Tech

@@ -1,14 +1,14 @@
-import React from 'react'
+import React, { Component } from 'react'
 import { Menu, Icon } from 'antd'
 
 const SubMenu = Menu.SubMenu;
 const MenuItemGroup = Menu.ItemGroup;
 
-export default class MyHeader extends React.Component {
+export default class MyHeader extends Component {
   state = {
     currentPage: 'home',
   }
-  
+
   render() {
     return (
       <Menu

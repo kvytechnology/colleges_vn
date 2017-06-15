@@ -9,6 +9,13 @@ export default class MyHeader extends Component {
     currentPage: 'home',
   }
 
+  componentDidMount() {
+    const page = window.location.pathname.split('/')[1]
+    if (page) {
+      this.setState({currentPage: page});
+    }
+  }
+
   render() {
     return (
       <Menu

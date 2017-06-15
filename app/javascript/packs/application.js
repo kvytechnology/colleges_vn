@@ -8,12 +8,12 @@
 // layout file, like app/views/layouts/application.html.erb
 
 import React from 'react'
-import ReactDOM from 'react-dom'
+import { render } from 'react-dom'
 import App from './app'
 import 'antd/dist/antd.css'
 
 document.addEventListener('DOMContentLoaded', () => {
-  ReactDOM.render(
+  render(
     <App />,
     document.querySelector("#app")
   )

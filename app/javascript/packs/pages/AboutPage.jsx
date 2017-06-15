@@ -1,9 +1,13 @@
 import React from 'react'
+import { Layout } from 'antd'
+const { Content } = Layout;
 
 const AboutPage = () => {
   return (
-    <div>
+    <Content>
       <h1>About</h1>
-    </div>
+    </Content>
   );
 };
+
+export default AboutPage;
